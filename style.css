@@ -1,11 +1,16 @@
 body {
+  font-family: Outfit;
   margin: 0;
   display: flex;
   min-height: 100vh;
   justify-content: center;
   align-items: center;
   background-color: #bcd7e8;
-  font-family: "Courier New", Courier, monospace;
+}
+
+@font-face {
+  font-family: Outfit;
+  src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
 
 .container {
